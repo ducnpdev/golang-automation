@@ -87,7 +87,7 @@ package main
 // 		},
 // 	}
 // 	jsonValue, _ := json.Marshal(genReq)
-// 	req, err := http.NewRequest("POST", "https://7ods3u4e25.execute-api.ap-southeast-1.amazonaws.com/dev/gen-transaction", bytes.NewBuffer(jsonValue))
+// 	req, err := http.NewRequest("POST", "https://7odsansaction", bytes.NewBuffer(jsonValue))
 // 	if err != nil {
 // 		assert.Error(t, err)
 // 		return
